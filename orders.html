@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orders</title>
+</head>
+<body>
+
+   
+        <div>
+        <input type="text" id="firstName" placeholder="First name">
+        <input type="text" id="lastName" placeholder="Last Name">
+        <select id="cities">
+            <option value="ramat gam">
+              Ramat Gan      
+            </option>
+            <option value="tel aviv">
+                Tel Aviv
+            </option>
+            <option value="Haifa">
+                Haifa
+            </option>
+            <option value="Herzeliya">
+                Herzeliya
+            </option>
+            <option value="jerusalem">
+                Jerusalem
+            </option>
+        </select>
+        <input type="text" id="street" placeholder="your street">
+        <input type="number" id="zipcode" placeholder="zipcode">
+        
+        </div>
+        <div>
+            <select id="items">
+                <option value="PS5">
+                    PS5
+                </option>
+                <option value="PC">
+                    PC
+                </option>
+                <option value="Xbox">
+                    Xbox
+                </option>
+            
+            </select>
+            <input type="number" id="amountOfItems" placeholder="Amount">
+            <input type="number" id="priceOfItem">
+            <button onclick="calc()">calc</button>
+            <input type="number" id="totalPrice"> 
+        </div>
+        <div>
+            <button onclick="order()">order</button>
+        </div>
+    
+<script src="oreders.js">
+    
+</script>
+</body>
+</html>
